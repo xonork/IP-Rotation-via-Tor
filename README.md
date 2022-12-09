@@ -34,7 +34,7 @@
 # Use with proxychains
 - We will edit the `/etc/proxychains4.conf` file adding the next line at the end:
 
-``socks5 127.0.0.1 9050`
+`socks5 127.0.0.1 9050`
 
 - If you want to execute a command and its traffic goes through the proxy, you will need to add `proxychains` before it:
 
